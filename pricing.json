@@ -1,52 +1,50 @@
 {
-  "plans": [
-    {
-      "name": "BASIC PLAN",
-      "price": "6.95",
-      "discount": "35%",
-      "characteristics": [
-        "1 Domain",
-        "10 GB Disk Space",
-        "50 GB Bandwith",
-        "1 Free Domain",
-        "1 FTP Account"
-      ]
-    },
-    {
-      "name": "ECO PLAN",
-      "price": "16.95",
-      "discount": "15%",
-      "characteristics": [
-        "5 Domains",
-        "50 GB Disk Space",
-        "250 GB Bandwith",
-        "2 Free Domain",
-        "Unlimited FTP Account"
-      ]
-    },
-    {
-      "name": "PRO PLAN",
-      "price": "23.95",
-      "discount": "8%",
-      "characteristics": [
-        "10 Domain",
-        "100 GB Disk Space",
-        "Unlimited Bandwith",
-        "3 Free Domain",
-        "Unlimited FTP Account"
-      ]
-    },
-    {
-      "name": "BASIC PLAN",
-      "price": "6.95",
-      "discount": "35%",
-      "characteristics": [
-        "Unlimited Domain",
-        "250 GB Disk Space",
-        "Unlimited Bandwith",
-        "5 Free Domain",
-        "Unlimited FTP Account"
-      ]
-    }
-  ]
+  "basic": {
+    "name": "BASIC PLAN",
+    "price": "6.95",
+    "discount": "35%",
+    "characteristics": [
+      "1 Domain",
+      "10 GB Disk Space",
+      "50 GB Bandwith",
+      "1 Free Domain",
+      "1 FTP Account"
+    ]
+  },
+  "eco": {
+    "name": "ECO PLAN",
+    "price": "16.95",
+    "discount": "15%",
+    "characteristics": [
+      "5 Domains",
+      "50 GB Disk Space",
+      "250 GB Bandwith",
+      "2 Free Domain",
+      "Unlimited FTP Account"
+    ]
+  },
+  "pro": {
+    "name": "PRO PLAN",
+    "price": "23.95",
+    "discount": "8%",
+    "characteristics": [
+      "10 Domain",
+      "100 GB Disk Space",
+      "Unlimited Bandwith",
+      "3 Free Domain",
+      "Unlimited FTP Account"
+    ]
+  },
+  "business": {
+    "name": "BUSINESS PLAN",
+    "price": "6.95",
+    "discount": "35%",
+    "characteristics": [
+      "Unlimited Domain",
+      "250 GB Disk Space",
+      "Unlimited Bandwith",
+      "5 Free Domain",
+      "Unlimited FTP Account"
+    ]
+  }
 }
